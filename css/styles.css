@@ -20,6 +20,7 @@ body {
     order: 1;
     flex-grow: 0;
     color: var(--main-txt-color);
+    background-color: var(--light-txt-color);
     }
 
 /*reset start*/
@@ -38,10 +39,10 @@ body {
   }
 
 .title {
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 color: var(--secondary-txt-color);
 }
 
@@ -49,19 +50,21 @@ color: var(--secondary-txt-color);
     color: var(--light-txt-color);
 }
 
-.link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 1.5;
-    color: var(--main-txt-link);
-    text-decoration: none;
-    }
+.list {
+font-style: normal
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-txt-link);
+list-style: none;
+}
 .address {
+font-style: normal
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
-letter-spacing: 1.5;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--main-txt-color)
 text-decoration: none;
 }
@@ -73,14 +76,17 @@ text-decoration: none;
 .heades-nav {
 }
 .header-nav-logo {
-font-family: Raleway;
+font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 text-transform: uppercase;
 text-decoration: none;
+}
+.letter {
+    color: var(--normal-background-btn);
 }
 .header-nav-list {
     list-style-type: none; /* Убирает буллиты */   
@@ -88,8 +94,8 @@ text-decoration: none;
 .header-nav-item {
 }
 
-.link:hover,
-.link:focus {
+.list:hover,
+.list:focus {
 color:var(--hover-background-btn);
 }
 .address {
@@ -118,8 +124,8 @@ color: var(--hover-background-btn);
 .hero-btn {
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
-letter-spacing: 1.5;
+line-height: 1.5;
+letter-spacing: 0.04em;
 color: #FFFFFF;
 background: var(--normal-background-btn);
 cursor: pointer;
@@ -182,10 +188,10 @@ color: var(--main-txt-col);
 background-color: #2E2F42;
 }
 .footer-logo {
-font-family: Raleway;
+font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 800;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 text-transform: uppercase;
@@ -206,11 +212,11 @@ text-transform: uppercase;
 .portfolio-item-btnw {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 1.5;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background: var(--hover-background-btn);
     list-style: none;
@@ -219,11 +225,11 @@ text-transform: uppercase;
 .portfolio-item-btn {
  font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 1.5;
+letter-spacing: 0.04em;
 color: var(--normal-background-btn);
 background: #E7E9FC;
 }
