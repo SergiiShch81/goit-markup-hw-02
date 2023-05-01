@@ -67,9 +67,6 @@ text-decoration: none;
 color: #404bbf;
 }
 
-.letter {
-    color: #2e2f42;
-}
 
 .list {
 font-style: normal;
@@ -87,29 +84,49 @@ list-style: none;
 color:var(--hover-background-btn);
 }
 
-.address {
+/*index html styles*/
+/*header styles*/
+.header {
+    font-style: normal;
+}
+
+.link-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;   
+    list-style-type: none; /* Убирает буллиты */
+    list-style: none;
+    text-decoration: none
+}
+
+.letter {
+    color: #2e2f42;
+}
+
+.adr-link {
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--main-txt-color);
-text-decoration: none;
+color: #434455;
+text-decoration:none
 }
 
-/*index html styles*/
-/*header styles*/
-.header {
-    
-    font-style: normal;
-}
-.heades-nav {
+.adr-link:hover,
+.adr-link:focus {
+color: #404bbf;
 }
 
-.header-nav-item {
-}
-
-.menu {
+.link-menu {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -124,13 +141,10 @@ text-decoration: none;
 .address {
     text-decoration: none;
 }
-.header-address {    
-}
+
 .header-address-list {
     font-style: normal;
     list-style-type: none; /* Убирает буллиты */
-}
-.header-address-item {
 }
 
 .address:hover,
@@ -158,6 +172,7 @@ color: #FFFFFF;
 background: var(--normal-background-btn);
 cursor: pointer;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
     background: var(--hover-background-btn);
@@ -213,11 +228,6 @@ color: #434455;
     color: #2e2f42;
 }
 
-.link {
-    font-weight: 500; 
-    color: var(--normal-background-btn);
-    }
-
 .team-item {
     background-color: #FFFFFF;
 }
@@ -230,6 +240,20 @@ color: #434455;
 /*footer styles*/
 .footer {
 background-color: #2E2F42;
+}
+
+.footer-logo-linc {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+color: #4D5AE5;
 }
 
 .footer-desc {
@@ -267,8 +291,7 @@ list-style: none;
 
 .portfolio-piclist-item {
 }
-.link {   
-}
+
 .portfolio-item-title {
 }
 .portfolio-item-desc { 
