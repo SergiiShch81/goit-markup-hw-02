@@ -91,7 +91,7 @@ color:var(--hover-background-btn);
 }
 
 .link-logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -103,7 +103,11 @@ color:var(--hover-background-btn);
     color: #4D5AE5;   
     list-style-type: none; /* Убирает буллиты */
     list-style: none;
-    text-decoration: none
+    text-decoration: none;
+}
+.link-logo:hover,
+.link-logo:focus {
+color: #404bbf;
 }
 
 .letter {
@@ -118,7 +122,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-text-decoration:none
+text-decoration:none;
 }
 
 .adr-link:hover,
@@ -243,7 +247,7 @@ background-color: #2E2F42;
 }
 
 .footer-logo-linc {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
