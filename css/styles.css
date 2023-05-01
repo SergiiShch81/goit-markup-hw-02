@@ -1,7 +1,7 @@
 :root {
 /*fonts*/
---primary-font: roboto, sans-serif;
---secondary-font: raleway, sans-serif;
+--primary-font: Roboto, sans-serif;
+--secondary-font: Raleway, sans-serif;
 /*Color*/
 --main-txt-color: #434455;
 --secondary-txt-color: #2E2F42;
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: var(--primary-font);
+    font-family: Roboto, sans-serif;
     line-height: 1.5;
     font-weight: medium;
     letter-spacing: 0.02em;
@@ -20,7 +20,7 @@ body {
     order: 1;
     flex-grow: 0;
     color: var(--main-txt-color);
-    background-color: var(--light-txt-color);
+    background-color: #FFFFFF;
     }
 
 /*reset start*/
@@ -50,6 +50,23 @@ color: var(--secondary-txt-color);
     color: var(--light-txt-color);
 }
 
+.link {
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: left;
+text-transform: uppercase;
+text-decoration: none;
+color: #4d5ae5;
+text-decoration: none;
+
+}
+.letter {
+    color: #2e2f42;
+}
+
 .list {
 font-style: normal
 font-weight: 500;
@@ -58,6 +75,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-txt-link);
 list-style: none;
+list-style-type: none; /* Убирает буллиты */
+text-decoration: none;
 }
 .address {
 font-style: normal
@@ -72,25 +91,13 @@ text-decoration: none;
 /*index html styles*/
 /*header styles*/
 .header {
+    font-style: normal;
 }
 .heades-nav {
 }
 .header-nav-logo {
-font-family: var(--secondary-font);
-font-size: 18px;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-align: left;
-text-transform: uppercase;
-text-decoration: none;
 }
-.letter {
-    color: var(--normal-background-btn);
-}
-.header-nav-list {
-    list-style-type: none; /* Убирает буллиты */   
-}
+
 .header-nav-item {
 }
 
@@ -120,9 +127,14 @@ color: var(--hover-background-btn);
     background-color: #2E2F42;
 }
 .hero-headline {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .hero-btn {
-font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -149,6 +161,7 @@ cursor: pointer;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--main-txt-col);
 }
 .item-desc {
@@ -157,9 +170,14 @@ color: var(--main-txt-col);
 .wedoing {
 }
 .wedoing-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
-.wedoing-list {
-    list-style-type: none; /* Убирает буллиты */
+.list {
+
 }
 .wedoing-items {
 }
@@ -168,18 +186,27 @@ color: var(--main-txt-col);
 
 /*team styles*/
 .team {
+    background-color: #F4F4FD;
 }
 .team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
-.team-list {
-    list-style-type: none; /* Убирает буллиты */
-}
+
+.link {
+    color: var(--normal-background-btn);
+    }
+
 .team-item {
+    background-color: #FFFFFF;
 }
 .team-item-img {
 }
-.team-item-titel {
-}
+
 .team-item-desc {
 }
 
@@ -187,19 +214,10 @@ color: var(--main-txt-col);
 .footer {
 background-color: #2E2F42;
 }
-.footer-logo {
-font-family: var(--secondary-font);
-font-size: 18px;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-align: left;
-text-transform: uppercase;
-}
+
 .footer-desc {
 }
 
-/*portfolio html styles*/
 /*Portfolio  list styles*/
 .portfolio {
 }
@@ -209,19 +227,6 @@ text-transform: uppercase;
 .portfolio-item {
 }
 
-.portfolio-item-btnw {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: var(--hover-background-btn);
-    list-style: none;
-    }  
-
 .portfolio-item-btn {
  font-weight: 500;
 font-size: 16px;
@@ -230,30 +235,26 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: var(--normal-background-btn);
-background: #E7E9FC;
+color: #4d5ae5;
+background: #F4F4FD;
+list-style: none;
 }
 
 .portfolio-item-btn:hover,
 .portfolio-item-btn:focus {
     cursor: pointer;
-    
-
-.portfolio-btnlist {
-    list-style-type: none;
-    text-decoration: none;
-    
-}
+    color: #FFFFFF;
+    background-color: #404BBF
+}   
 
 .portfolio-piclist-item {
-    
-    
 }
-.portfolio-item-link {
-    
+.link {   
 }
 .portfolio-item-title {
 }
-.portfolio-item-desc {
-    
+.portfolio-item-desc { 
+}
+.letter-footer {
+    color: #f4f4fd
 }
