@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     font-weight: medium;
     letter-spacing: 0.02em;
@@ -53,7 +53,7 @@ color: var(--secondary-txt-color);
 .link {
 font-family: Raleway, sans-serif;
 font-size: 18px;
-font-weight: 800;
+font-weight: 500;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
@@ -78,6 +78,12 @@ list-style: none;
 list-style-type: none; /* Убирает буллиты */
 text-decoration: none;
 }
+
+.list:hover,
+.list:focus {
+color:var(--hover-background-btn);
+}
+
 .address {
 font-style: normal
 font-weight: 400;
@@ -101,10 +107,7 @@ text-decoration: none;
 .header-nav-item {
 }
 
-.list:hover,
-.list:focus {
-color:var(--hover-background-btn);
-}
+
 .address {
     text-decoration: none;
 }
@@ -198,6 +201,7 @@ color: var(--main-txt-col);
 }
 
 .link {
+    font-weight: 500
     color: var(--normal-background-btn);
     }
 
@@ -228,7 +232,7 @@ background-color: #2E2F42;
 }
 
 .portfolio-item-btn {
- font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
@@ -254,6 +258,7 @@ list-style: none;
 .portfolio-item-title {
 }
 .portfolio-item-desc { 
+    color: #434455;
 }
 .letter-footer {
     color: #f4f4fd
