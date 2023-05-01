@@ -31,7 +31,6 @@ body {
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -61,22 +60,26 @@ text-transform: uppercase;
 text-decoration: none;
 color: #4d5ae5;
 text-decoration: none;
-
 }
+
+.link:hover,
+.link:focus {
+color: #404bbf;
+}
+
 .letter {
     color: #2e2f42;
 }
 
 .list {
-font-style: normal
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--main-txt-link);
-list-style: none;
+color: #2e2f42;
 list-style-type: none; /* Убирает буллиты */
-text-decoration: none;
+list-style: none;
 }
 
 .list:hover,
@@ -85,12 +88,12 @@ color:var(--hover-background-btn);
 }
 
 .address {
-font-style: normal
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--main-txt-color)
+color: var(--main-txt-color);
 text-decoration: none;
 }
 
@@ -102,12 +105,21 @@ text-decoration: none;
 }
 .heades-nav {
 }
-.header-nav-logo {
-}
 
 .header-nav-item {
 }
 
+.menu {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+list-style: none;
+text-decoration: none;
+}
 
 .address {
     text-decoration: none;
@@ -166,7 +178,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--main-txt-col);
+color: #434455;
 }
 .item-desc {
 }
@@ -202,7 +214,7 @@ color: var(--main-txt-col);
 }
 
 .link {
-    font-weight: 500
+    font-weight: 500; 
     color: var(--normal-background-btn);
     }
 
@@ -233,6 +245,7 @@ background-color: #2E2F42;
 }
 
 .portfolio-item-btn {
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -249,7 +262,7 @@ list-style: none;
 .portfolio-item-btn:focus {
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #404BBF
+    background-color: #404BBF;
 }   
 
 .portfolio-piclist-item {
@@ -262,5 +275,5 @@ list-style: none;
     color: #434455;
 }
 .letter-footer {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
