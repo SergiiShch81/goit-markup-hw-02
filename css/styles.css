@@ -60,6 +60,7 @@ text-transform: uppercase;
 text-decoration: none;
 color: #4d5ae5;
 text-decoration: none;
+font-style: normal
 }
 
 .link:hover,
@@ -140,6 +141,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 list-style: none;
 text-decoration: none;
+font-style: normal
 }
 
 .link-menu:hover,
