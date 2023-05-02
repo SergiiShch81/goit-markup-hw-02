@@ -148,6 +148,7 @@ color: #404bbf;
 }
 .address {
     text-decoration: none;
+    font-style: normal 
 }
 
 .header-address-list {
@@ -170,7 +171,9 @@ color: var(--hover-background-btn);
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    color: #ffffff;
 }
+
 .hero-btn {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
