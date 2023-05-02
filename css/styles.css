@@ -154,8 +154,8 @@ color: #404bbf;
 }
 
 .header-address-list {
-    font-style: normal;
     list-style-type: none; /* Убирает буллиты */
+    font-style: normal;
 }
 
 .address:hover,
