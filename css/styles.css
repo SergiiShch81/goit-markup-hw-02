@@ -1,187 +1,178 @@
 :root {
-/*fonts*/
---primary-font: Roboto, sans-serif;
---secondary-font: Raleway, sans-serif;
-/*Color*/
---main-txt-color: #434455;
---secondary-txt-color: #2E2F42;
---light-txt-color: #FFFFFF;
---main-txt-link: #2E2F42;
---normal-background-btn: #4D5AE5;
---hover-background-btn: #404BBF;
+  /*fonts*/
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /*Color*/
+  --main-txt-color: #434455;
+  --secondary-txt-color: #2e2f42;
+  --light-txt-color: #ffffff;
+  --main-txt-link: #2e2f42;
+  --normal-background-btn: #4d5ae5;
+  --hover-background-btn: #404bbf;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    flex: none;
-    color: #434455;
-    background-color: #FFFFFF;
-    }
+  font-family: "Roboto", sans-serif;
+  flex: none;
+  color: #434455;
+  background-color: #ffffff;
+}
 
 /*reset start*/
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  display: none;
+}
 
 .title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-color: var(--secondary-txt-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-color);
 }
 
 .title-light {
-    color: var(--light-txt-color);
+  color: var(--light-txt-color);
 }
 
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
-color: #404bbf;
+  color: #404bbf;
 }
 
 .list {
-list-style: none;
+  list-style: none;
 }
 
 .list:hover,
 .list:focus {
-color:var(--hover-background-btn);
+  color: var(--hover-background-btn);
 }
 
 /*index html styles*/
 /*header styles*/
 .header {
-    font-style: normal;
+  font-style: normal;
 }
 
 .link-logo {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;   
-    list-style-type: none; /* Убирает буллиты */
-    list-style: none;
-    text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  list-style-type: none; /* Убирает буллиты */
+  list-style: none;
+  text-decoration: none;
 }
 .link-logo:hover,
 .link-logo:focus {
-color: #404bbf;
+  color: #404bbf;
 }
 
 .letter {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .adr-link {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-text-decoration:none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
 }
 
 .adr-link:hover,
 .adr-link:focus {
-color: #404bbf;
+  color: #404bbf;
 }
 
 .link-menu {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
-font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-style: normal;
 }
 
 .link-menu:hover,
 .link-menu:focus {
-color: #404bbf;
+  color: #404bbf;
 }
 .address {
-    text-decoration: none;
-    font-style: normal; 
+  text-decoration: none;
+  font-style: normal;
 }
 
-.header-address{
-    list-style-type: none; /* Убирает буллиты */
-    font-style: normal;
+.header-address {
+  list-style-type: none; /* Убирает буллиты */
+  font-style: normal;
 }
 
 .address:hover,
 .address:focus {
-color: var(--hover-background-btn);
+  color: var(--hover-background-btn);
 }
 
 /*hero styles*/
 .hero {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .hero-headline {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .hero-btn {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background: var(--normal-background-btn);
-cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: var(--normal-background-btn);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: var(--hover-background-btn);
-    cursor: pointer;
+  background: var(--hover-background-btn);
+  cursor: pointer;
 }
 /* about styles*/
 .about {
 }
 
 .about-list {
-    list-style-type: none; /* Убирает буллиты */
+  list-style-type: none; /* Убирает буллиты */
 }
 .about-list-item {
 }
 .about-item-title {
 }
 .lead {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .item-desc {
 }
@@ -189,14 +180,13 @@ color: #434455;
 .wedoing {
 }
 .wedoing-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .list {
-
 }
 .wedoing-items {
 }
@@ -205,19 +195,19 @@ color: #434455;
 
 /*team styles*/
 .team {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-item {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .team-item-img {
 }
@@ -227,20 +217,20 @@ color: #434455;
 
 /*footer styles*/
 .footer {
-background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .link-footer-logo {
-font-family: Raleway, sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-desc {
@@ -250,31 +240,31 @@ color: #4D5AE5;
 .portfolio {
 }
 .portfolio-btnlist {
-    list-style-type: none; /* Убирает буллиты */
+  list-style-type: none; /* Убирает буллиты */
 }
 .portfolio-item {
 }
 
 .portfolio-item-btn {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4d5ae5;
-background: #F4F4FD;
-list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  list-style: none;
 }
 
 .portfolio-item-btn:hover,
 .portfolio-item-btn:focus {
-    cursor: pointer;
-    color: #FFFFFF;
-    background-color: #404BBF;
-}   
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #404bbf;
+}
 
 .portfolio-piclist-item {
 }
@@ -282,13 +272,13 @@ list-style: none;
 .portfolio-item-title {
 }
 
-.portfolio-item-desc { 
-    font-size: 16px;
-    line-height: 1.5;
-     letter-spacing: 0.02em;    
-    color: #434455;
+.portfolio-item-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .letter-footer {
-    color: #f4f4fd;
+  color: #f4f4fd;
 }
